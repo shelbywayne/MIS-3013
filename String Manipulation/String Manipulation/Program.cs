@@ -25,13 +25,17 @@ namespace String_Manipulation
             {
                 Console.WriteLine("What would you like to replace the word with?");
                 ReplacementWord = Convert.ToString(Console.ReadLine());
-                MainSentence.Replace(Response, ReplacementWord);
-                Console.WriteLine(MainSentence);
+                var shel = MainSentence.Replace(Response, ReplacementWord);
+                Console.WriteLine(shel);
             } 
 
             else if (true)
             {
                 Console.WriteLine($"Sorry, I could not find your word");
+                for (int i = 0; i >= 0; i--)
+                {
+                    Console.WriteLine(Response);
+                }                    
             }
 
             Console.ReadKey();
