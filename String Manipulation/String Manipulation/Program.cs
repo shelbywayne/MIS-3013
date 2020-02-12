@@ -31,10 +31,10 @@ namespace String_Manipulation
 
             else if (true)
             {
-                Console.WriteLine($"Sorry, I could not find your word");
-                for (int i = 0; i >= 0; i--)
+                Console.WriteLine($"Sorry, I could not find your word {Response}.");
+                for (int i = Response.Length -1; i >= 0; i--)
                 {
-                    Console.WriteLine(Response);
+                    Console.Write(Response[i]);
                 }                    
             }
 
